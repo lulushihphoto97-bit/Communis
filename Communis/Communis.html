@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Communis - Local & Seasonal Living</title>
+    <title>Communis - EAT LOCAL EAT ALIVE | Bio</title>
     
+    <!-- SEO Meta Tags for Google Quality Score Optimization -->
+    <meta name="description" content="Découvrez Communis, l'application qui connecte les consommateurs aux producteurs locaux. Recevez des alertes d'arrivages, cuisinez zéro déchet, relevez des défis écologiques et gagnez des réductions sur vos courses bio à Paris.">
+    <meta name="keywords" content="producteurs locaux, alimentation de saison, application bio, zéro déchet, anti-gaspi, marché local, Paris, circuit court, éco-responsable, défis écologiques, recettes anti-gaspi">
+    <meta name="author" content="Communis">
+    
+    <!-- Open Graph for Social Media sharing -->
+    <meta property="og:title" content="Communis - Consommez local et de saison">
+    <meta property="og:description" content="L'application pour trouver des producteurs près de chez vous, éviter le gaspillage alimentaire et gagner des récompenses en consommant local.">
+    <meta property="og:type" content="website">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -78,12 +88,12 @@
             animation-play-state: paused;
         }
 
-        /* 隱藏地圖滾動條 */
+        /* Masquer la barre de défilement */
         .hide-scrollbar::-webkit-scrollbar {
             display: none;
         }
         
-        /* 確保 Lucide 圖示大小正確 */
+        /* Assurer la taille correcte des icônes Lucide */
         .lucide {
             width: 100%;
             height: 100%;
@@ -102,13 +112,13 @@
                 <span class="font-calistoga text-2xl tracking-tight text-organic-darkest">Communis</span>
             </div>
             <div class="hidden md:flex items-center gap-8 text-sm font-medium text-organic-dark/80">
-                <a href="#features" class="hover:text-organic-green transition-colors">Features</a>
-                <a href="#partners" class="hover:text-organic-green transition-colors">Partners</a>
-                <a href="#recipes" class="hover:text-organic-green transition-colors">Recipes</a>
+                <a href="#features" class="hover:text-organic-green transition-colors">Fonctionnalités</a>
+                <a href="#partners" class="hover:text-organic-green transition-colors">Partenaires</a>
+                <a href="#recipes" class="hover:text-organic-green transition-colors">Recettes</a>
             </div>
             <div>
                 <button class="rounded-lg bg-signature-gradient px-5 py-2.5 text-sm font-medium text-white transition-all hover:shadow-accent hover:-translate-y-0.5">
-                    Download App
+                    Télécharger l'App
                 </button>
             </div>
         </div>
@@ -128,23 +138,23 @@
                             <span class="relative inline-flex rounded-full h-2 w-2 bg-organic-green"></span>
                         </div>
                         <span class="font-mono text-xs uppercase tracking-[0.15em] text-organic-dark font-semibold">
-                            Post-Crisis Recovery
+                            Relance Post-Crise
                         </span>
                     </div>
 
                     <h1 class="font-calistoga text-5xl md:text-6xl lg:text-[5.25rem] leading-[1.05] tracking-tight text-organic-darkest mb-8">
-                        Eat with the Seasons.<br />
+                        EAT LOCAL<br />
                         <span class="gradient-text relative inline-block">
-                            Revive Your Community.
+                            EAT ALIVE
                             <span class="absolute -bottom-2 left-0 h-3 w-full rounded-sm bg-gradient-to-r from-organic-tan/40 to-organic-green/20"></span>
                         </span>
                     </h1>
                     <p class="font-inter text-lg md:text-xl text-organic-dark/80 mb-10 leading-relaxed max-w-lg">
-                        Communis bridges the gap between local producers and consumers, building a sustainable living community through real-time data and direct connection.
+                        Communis crée du lien entre les producteurs locaux et les consommateurs. Bâtissez une communauté durable grâce aux données en temps réel et aux circuits courts.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
                         <button class="group relative inline-flex items-center justify-center gap-2 rounded-xl bg-signature-gradient px-8 py-4 text-organic-light font-medium transition-all duration-300 hover:-translate-y-1 hover:shadow-accent active:scale-95">
-                            Free Download
+                            Téléchargement Gratuit
                             <i data-lucide="arrow-right" class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1"></i>
                         </button>
                     </div>
@@ -157,8 +167,9 @@
                     <div class="absolute inset-0 bg-organic-light">
                       <img 
                           src="images/map.jpg" 
-                          alt="Paris Local Map" 
-                          class="w-full h-full object-cover opacity-60">
+                          alt="Carte Locale Paris" 
+                          class="w-full h-full object-cover opacity-60"
+                          onerror="this.src='https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=800&auto=format&fit=crop'; this.classList.add('grayscale', 'mix-blend-multiply')">
                       <div class="absolute inset-0 bg-organic-light/20 pointer-events-none"></div>
                     </div>
 
@@ -199,14 +210,14 @@
                             <!-- Top tiny label -->
                             <div class="flex items-center gap-2 mb-2">
                                 <span class="w-2.5 h-2.5 rounded-full bg-organic-green animate-pulse"></span>
-                                <span class="font-mono text-[10px] uppercase font-bold text-organic-dark tracking-wider">Fresh Arrival</span>
+                                <span class="font-mono text-[10px] uppercase font-bold text-organic-dark tracking-wider">Nouvel Arrivage</span>
                             </div>
                             <!-- Content -->
-                            <h4 class="font-inter font-bold text-organic-darkest text-sm mb-1 leading-tight">Limited time only</h4>
+                            <h4 class="font-inter font-bold text-organic-darkest text-sm mb-1 leading-tight">Offre Limitée</h4>
                             <p class="font-inter text-xs text-organic-dark mb-2 font-medium">Pomme : Patte de Loup, Salade : Radicchio</p>
                             <div class="flex items-center justify-between mt-3 pt-3 border-t border-organic-light">
-                                <span class="font-inter text-[10px] text-organic-dark/60 font-medium">1.2 KM Away</span>
-                                <span class="font-inter text-[10px] text-organic-green font-bold bg-organic-green/10 px-2 py-1 rounded-md">View Route</span>
+                                <span class="font-inter text-[10px] text-organic-dark/60 font-medium">À 1,2 km</span>
+                                <span class="font-inter text-[10px] text-organic-green font-bold bg-organic-green/10 px-2 py-1 rounded-md">Voir l'itinéraire</span>
                             </div>
                             
                             <!-- Pop-up tail -->
@@ -217,7 +228,8 @@
                 </div>
             </div>
         </section>
-
+        
+        
         <!-- Impact Dashboard -->
         <section class="bg-organic-darkest text-organic-light py-28 relative overflow-hidden">
             <!-- Texture Dot Pattern -->
@@ -227,18 +239,18 @@
                 <div class="grid md:grid-cols-3 gap-12 lg:gap-24 divide-y md:divide-y-0 md:divide-x divide-organic-dark">
                     
                     <!-- Metric 1 -->
-                    <div class="pt-8 md:pt-0">
+                    <div class="pt-8 md:pt-0 md:pl-12 lg:pl-24">
                         <div class="flex items-center gap-3 mb-4">
                             <div class="relative flex h-2 w-2">
                                 <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-organic-green opacity-75"></span>
                                 <span class="relative inline-flex rounded-full h-2 w-2 bg-organic-green"></span>
                             </div>
-                            <span class="font-mono text-sm uppercase tracking-widest text-organic-tan">Global Reach</span>
+                            <span class="font-mono text-sm uppercase tracking-widest text-organic-tan">Impact Global</span>
                         </div>
                         <h3 class="font-calistoga text-6xl md:text-7xl mb-2 text-white">1M+</h3>
-                        <p class="font-inter text-organic-tan/80 text-lg">Active Eco-conscious Users</p>
+                        <p class="font-inter text-organic-tan/80 text-lg">Utilisateurs éco-responsables</p>
                     </div>
-
+                    
                     <!-- Metric 2 -->
                     <div class="pt-8 md:pt-0 md:pl-12 lg:pl-24">
                         <div class="flex items-center gap-3 mb-4">
@@ -246,39 +258,39 @@
                                 <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-organic-green opacity-75"></span>
                                 <span class="relative inline-flex rounded-full h-2 w-2 bg-organic-green"></span>
                             </div>
-                            <span class="font-mono text-sm uppercase tracking-widest text-organic-tan">Local Network</span>
+                            <span class="font-mono text-sm uppercase tracking-widest text-organic-tan">Réseau Local</span>
                         </div>
-                        <h3 class="font-calistoga text-6xl md:text-7xl mb-2 text-white">2,000+</h3>
-                        <p class="font-inter text-organic-tan/80 text-lg">Local Producers & Shops</p>
+                        <h3 class="font-calistoga text-6xl md:text-7xl mb-2 text-white">200+</h3>
+                        <p class="font-inter text-organic-tan/80 text-lg">Producteurs & Commerces locaux</p>
                     </div>
-
+                    
                     <!-- Metric 3 -->
-                    <div class="pt-8 md:pt-0 md:pl-12 lg:pl-24 flex flex-col justify-center">
-                      <div class="flex items-center justify-between mb-4">
-                          <span class="font-mono text-sm uppercase tracking-widest text-organic-tan">CO2 Reduced</span>
-                          <div class="w-8 h-8 rounded-full bg-organic-green/20 flex items-center justify-center p-1.5">
-                              <i data-lucide="leaf" class="text-organic-green"></i>
-                          </div>
-                      </div>
-                      
-                      <h3 class="font-calistoga text-5xl md:text-6xl text-white mb-6">1,250<span class="text-3xl text-organic-tan ml-2">Tons</span></h3>
-                      
-                      <div class="w-full bg-organic-dark rounded-full h-2.5 mb-3 overflow-hidden border border-organic-light/10">
-                          <div class="bg-signature-gradient h-full rounded-full w-[75%] relative">
-                              <div class="absolute inset-0 bg-white/20 animate-pulse"></div>
-                          </div>
-                      </div>
-                      <p class="font-inter text-organic-tan/60 text-sm text-right font-medium">Target: 2,000T by 2026</p>
+                    <div class="pt-8 md:pt-0 md:pl-12 lg:pl-24">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="font-mono text-sm uppercase tracking-widest text-organic-tan">CO2 Réduit</span>
+                            <div class="w-8 h-8 rounded-full bg-organic-green/20 flex items-center justify-center p-1.5">
+                                <i data-lucide="leaf" class="text-organic-green"></i>
+                            </div>
+                        </div>
+                        
+                        <h3 class="font-calistoga text-5xl md:text-6xl text-white mb-6">650<span class="text-3xl text-organic-tan ml-2">Tonnes</span></h3>
+                        
+                        <div class="w-full bg-organic-dark rounded-full h-2.5 mb-3 overflow-hidden border border-organic-light/10">
+                            <div class="bg-signature-gradient h-full rounded-full w-[75%] relative">
+                                <div class="absolute inset-0 bg-white/20 animate-pulse"></div>
+                            </div>
+                        </div>
+                        <p class="font-inter text-organic-tan/60 text-sm text-right font-medium">Objectif : 2 000 T d'ici 2026</p>
                     </div>
-
+                    
                 </div>
             </div>
         </section>
-
+        
         <!-- Social Proof (Marquee) -->
         <section id="partners" class="py-20 bg-white border-b border-organic-tan/30 overflow-hidden">
             <div class="max-w-6xl mx-auto px-6 flex flex-col items-center mb-12">
-                <span class="font-mono text-xs uppercase tracking-[0.15em] text-organic-dark/60 font-semibold">Trusted by local leaders in Paris</span>
+                <span class="font-mono text-xs uppercase tracking-[0.15em] text-organic-dark/60 font-semibold">Soutenu par les leaders locaux à Paris</span>
             </div>
             
             <!-- Marquee Container -->
@@ -290,82 +302,82 @@
                     <!-- First Set -->
                     <div class="flex items-center gap-3 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-default">
                         <div class="w-10 h-10 rounded-lg border-2 border-[#D9B68B] overflow-hidden p-0.5 bg-white">
-                          <img src="images/bio1.jpg" alt="Le potager de la butte" class="w-full h-full object-cover rounded-md">
+                            <img src="images/bio1.jpg" alt="Le potager de la butte" class="w-full h-full object-cover rounded-md" onerror="this.style.display='none'">
                         </div>
                         <span class="font-calistoga text-2xl text-organic-darkest whitespace-nowrap">Le potager de la butte</span>
                     </div>
                     <div class="flex items-center gap-3 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-default">
                         <div class="w-10 h-10 rounded-lg border-2 border-[#D9B68B] overflow-hidden p-0.5 bg-white">
-                          <img src="images/bio2.jpg" alt="Panier Gaïa" class="w-full h-full object-cover rounded-md">
+                            <img src="images/bio2.jpg" alt="Panier Gaïa" class="w-full h-full object-cover rounded-md" onerror="this.style.display='none'">
                         </div>
                         <span class="font-calistoga text-2xl text-organic-darkest whitespace-nowrap">Panier Gaïa</span>
                     </div>
                     <div class="flex items-center gap-3 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-default">
                         <div class="w-10 h-10 rounded-lg border-2 border-[#D9B68B] overflow-hidden p-0.5 bg-white">
-                          <img src="images/bio3.jpg" alt="Touimer Bio" class="w-full h-full object-cover rounded-md">
+                            <img src="images/bio3.jpg" alt="Touimer Bio" class="w-full h-full object-cover rounded-md" onerror="this.style.display='none'">
                         </div>
                         <span class="font-calistoga text-2xl text-organic-darkest whitespace-nowrap">Touimer Bio</span>
                     </div>
                     <div class="flex items-center gap-3 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-default">
                         <div class="w-10 h-10 rounded-lg border-2 border-[#D9B68B] overflow-hidden p-0.5 bg-white">
-                          <img src="images/bio4.jpg" alt="Naturenville Pyrénées" class="w-full h-full object-cover rounded-md">
+                            <img src="images/bio4.jpg" alt="Naturenville Pyrénées" class="w-full h-full object-cover rounded-md" onerror="this.style.display='none'">
                         </div>
                         <span class="font-calistoga text-2xl text-organic-darkest whitespace-nowrap">Naturenville Pyrénées</span>
                     </div>
                     <div class="flex items-center gap-3 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-default">
                         <div class="w-10 h-10 rounded-lg border-2 border-[#D9B68B] overflow-hidden p-0.5 bg-white">
-                          <img src="images/bio5.jpg" alt="Le Bio d'Alesia" class="w-full h-full object-cover rounded-md">
+                            <img src="images/bio5.jpg" alt="Le Bio d'Alesia" class="w-full h-full object-cover rounded-md" onerror="this.style.display='none'">
                         </div>
                         <span class="font-calistoga text-2xl text-organic-darkest whitespace-nowrap">Le Bio d'Alesia</span>
                     </div>
                     <div class="flex items-center gap-3 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-default">
                         <div class="w-10 h-10 rounded-lg border-2 border-[#D9B68B] overflow-hidden p-0.5 bg-white">
-                          <img src="images/bio6.jpg" alt="Marché biologique Raspail" class="w-full h-full object-cover rounded-md">
+                            <img src="images/bio6.jpg" alt="Marché biologique Raspail" class="w-full h-full object-cover rounded-md" onerror="this.style.display='none'">
                         </div>
-                        <span class="font-calistoga text-2xl text-organic-darkest whitespace-nowrap">Marché biologique Raspail</span>
+                        <span class="font-calistoga text-2xl text-organic-darkest whitespace-nowrap">Marché bio Raspail</span>
                     </div>
                     
                     <!-- Duplicated Set for infinite scroll effect -->
                     <div class="flex items-center gap-3 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-default pl-16">
                         <div class="w-10 h-10 rounded-lg border-2 border-[#D9B68B] overflow-hidden p-0.5 bg-white">
-                          <img src="images/bio1.jpg" alt="Le potager de la butte" class="w-full h-full object-cover rounded-md">
+                            <img src="images/bio1.jpg" alt="Le potager de la butte" class="w-full h-full object-cover rounded-md" onerror="this.style.display='none'">
                         </div>
                         <span class="font-calistoga text-2xl text-organic-darkest whitespace-nowrap">Le potager de la butte</span>
                     </div>
                     <div class="flex items-center gap-3 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-default">
                         <div class="w-10 h-10 rounded-lg border-2 border-[#D9B68B] overflow-hidden p-0.5 bg-white">
-                          <img src="images/bio2.jpg" alt="Panier Gaïa" class="w-full h-full object-cover rounded-md">
+                            <img src="images/bio2.jpg" alt="Panier Gaïa" class="w-full h-full object-cover rounded-md" onerror="this.style.display='none'">
                         </div>
                         <span class="font-calistoga text-2xl text-organic-darkest whitespace-nowrap">Panier Gaïa</span>
                     </div>
                     <div class="flex items-center gap-3 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-default">
                         <div class="w-10 h-10 rounded-lg border-2 border-[#D9B68B] overflow-hidden p-0.5 bg-white">
-                          <img src="images/bio3.jpg" alt="Touimer Bio" class="w-full h-full object-cover rounded-md">
+                            <img src="images/bio3.jpg" alt="Touimer Bio" class="w-full h-full object-cover rounded-md" onerror="this.style.display='none'">
                         </div>
                         <span class="font-calistoga text-2xl text-organic-darkest whitespace-nowrap">Touimer Bio</span>
                     </div>
                     <div class="flex items-center gap-3 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-default">
                         <div class="w-10 h-10 rounded-lg border-2 border-[#D9B68B] overflow-hidden p-0.5 bg-white">
-                          <img src="images/bio4.jpg" alt="Naturenville Pyrénées" class="w-full h-full object-cover rounded-md">
+                            <img src="images/bio4.jpg" alt="Naturenville Pyrénées" class="w-full h-full object-cover rounded-md" onerror="this.style.display='none'">
                         </div>
                         <span class="font-calistoga text-2xl text-organic-darkest whitespace-nowrap">Naturenville Pyrénées</span>
                     </div>
                     <div class="flex items-center gap-3 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-default">
                         <div class="w-10 h-10 rounded-lg border-2 border-[#D9B68B] overflow-hidden p-0.5 bg-white">
-                          <img src="images/bio5.jpg" alt="Le Bio d'Alesia" class="w-full h-full object-cover rounded-md">
+                            <img src="images/bio5.jpg" alt="Le Bio d'Alesia" class="w-full h-full object-cover rounded-md" onerror="this.style.display='none'">
                         </div>
                         <span class="font-calistoga text-2xl text-organic-darkest whitespace-nowrap">Le Bio d'Alesia</span>
                     </div>
                     <div class="flex items-center gap-3 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-default">
                         <div class="w-10 h-10 rounded-lg border-2 border-[#D9B68B] overflow-hidden p-0.5 bg-white">
-                          <img src="images/bio6.jpg" alt="Marché biologique Raspail" class="w-full h-full object-cover rounded-md">
+                            <img src="images/bio6.jpg" alt="Marché biologique Raspail" class="w-full h-full object-cover rounded-md" onerror="this.style.display='none'">
                         </div>
-                        <span class="font-calistoga text-2xl text-organic-darkest whitespace-nowrap">Marché biologique Raspail</span>
+                        <span class="font-calistoga text-2xl text-organic-darkest whitespace-nowrap">Marché bio Raspail</span>
                     </div>
                 </div>
             </div>
         </section>
-
+        
         <!-- Features -->
         <section id="features" class="py-32 relative bg-organic-light">
             <div class="max-w-6xl mx-auto px-6">
@@ -375,16 +387,16 @@
                             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-organic-green opacity-75"></span>
                             <span class="relative inline-flex rounded-full h-2 w-2 bg-organic-green"></span>
                         </div>
-                        <span class="font-mono text-xs uppercase tracking-[0.15em] text-organic-dark font-semibold">App Features</span>
+                        <span class="font-mono text-xs uppercase tracking-[0.15em] text-organic-dark font-semibold">Fonctionnalités de l'App</span>
                     </div>
                     <h2 class="font-calistoga text-4xl md:text-5xl leading-tight text-organic-darkest mb-6">
-                        Four ways to reconnect with your food.
+                        Quatre façons de vous reconnecter à votre alimentation.
                     </h2>
                     <p class="font-inter text-lg text-organic-dark/80">
-                        A comprehensive toolkit designed to change consumption habits, support local economies, and reduce ecological footprints.
+                        Un outil complet conçu pour changer les habitudes de consommation, soutenir l'économie locale et réduire l'empreinte écologique.
                     </p>
                 </div>
-
+                
                 <div class="grid md:grid-cols-2 gap-8">
                     <!-- Feature 1 -->
                     <div class="group bg-white border border-organic-tan/40 rounded-2xl p-10 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(5,89,2,0.15)] relative overflow-hidden">
@@ -393,11 +405,11 @@
                             <div class="w-14 h-14 rounded-xl bg-signature-gradient flex items-center justify-center text-white mb-8 shadow-md group-hover:scale-110 transition-transform duration-300 p-3">
                                 <i data-lucide="map"></i>
                             </div>
-                            <h3 class="font-inter font-semibold text-2xl text-organic-darkest mb-4 tracking-tight">Interactive Map</h3>
-                            <p class="font-inter text-organic-dark/80 leading-relaxed">Localize fresh produce and discover seasonal merchants right in your neighborhood with one click.</p>
+                            <h3 class="font-inter font-semibold text-2xl text-organic-darkest mb-4 tracking-tight">Carte Interactive</h3>
+                            <p class="font-inter text-organic-dark/80 leading-relaxed">Localisez les produits frais et découvrez les commerçants de saison de votre quartier en un seul clic.</p>
                         </div>
                     </div>
-
+                    
                     <!-- Feature 2 -->
                     <div class="group bg-white border border-organic-tan/40 rounded-2xl p-10 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(5,89,2,0.15)] relative overflow-hidden">
                         <div class="absolute inset-0 bg-gradient-to-br from-organic-green/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
@@ -405,11 +417,11 @@
                             <div class="w-14 h-14 rounded-xl bg-signature-gradient flex items-center justify-center text-white mb-8 shadow-md group-hover:scale-110 transition-transform duration-300 p-3">
                                 <i data-lucide="bell-ring"></i>
                             </div>
-                            <h3 class="font-inter font-semibold text-2xl text-organic-darkest mb-4 tracking-tight">Alerts & Forecasts</h3>
-                            <p class="font-inter text-organic-dark/80 leading-relaxed">Get real-time notifications for imminent arrivals. E.g., '200kg of carrots arriving tomorrow'.</p>
+                            <h3 class="font-inter font-semibold text-2xl text-organic-darkest mb-4 tracking-tight">Alertes & Prévisions</h3>
+                            <p class="font-inter text-organic-dark/80 leading-relaxed">Recevez des notifications en temps réel pour les arrivages imminents. Ex: '200 kg de carottes arrivent demain'.</p>
                         </div>
                     </div>
-
+                    
                     <!-- Feature 3 -->
                     <div class="group bg-white border border-organic-tan/40 rounded-2xl p-10 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(5,89,2,0.15)] relative overflow-hidden">
                         <div class="absolute inset-0 bg-gradient-to-br from-organic-green/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
@@ -417,11 +429,11 @@
                             <div class="w-14 h-14 rounded-xl bg-signature-gradient flex items-center justify-center text-white mb-8 shadow-md group-hover:scale-110 transition-transform duration-300 p-3">
                                 <i data-lucide="chef-hat"></i>
                             </div>
-                            <h3 class="font-inter font-semibold text-2xl text-organic-darkest mb-4 tracking-tight">Zero-Waste Recipes</h3>
-                            <p class="font-inter text-organic-dark/80 leading-relaxed">Turn freshly bought, seasonal produce into gourmet anti-waste meals with chef-curated guides.</p>
+                            <h3 class="font-inter font-semibold text-2xl text-organic-darkest mb-4 tracking-tight">Recettes Zéro Déchet</h3>
+                            <p class="font-inter text-organic-dark/80 leading-relaxed">Transformez vos produits frais et de saison en repas gourmands anti-gaspi grâce à nos guides de chefs.</p>
                         </div>
                     </div>
-
+                    
                     <!-- Feature 4 -->
                     <div class="group bg-white border border-organic-tan/40 rounded-2xl p-10 transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(5,89,2,0.15)] relative overflow-hidden">
                         <div class="absolute inset-0 bg-gradient-to-br from-organic-green/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
@@ -429,20 +441,112 @@
                             <div class="w-14 h-14 rounded-xl bg-signature-gradient flex items-center justify-center text-white mb-8 shadow-md group-hover:scale-110 transition-transform duration-300 p-3">
                                 <i data-lucide="trophy"></i>
                             </div>
-                            <h3 class="font-inter font-semibold text-2xl text-organic-darkest mb-4 tracking-tight">Challenges & Rewards</h3>
-                            <p class="font-inter text-organic-dark/80 leading-relaxed">Complete missions for sustainable eating, earn community badges, and unlock merchant discounts.</p>
+                            <h3 class="font-inter font-semibold text-2xl text-organic-darkest mb-4 tracking-tight">Défis & Récompenses</h3>
+                            <p class="font-inter text-organic-dark/80 leading-relaxed">Accomplissez des missions d'alimentation durable, gagnez des badges et débloquez des réductions.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Challenges & Gamification Section (NEWLY ADDED) -->
+        <!--Alerts-->
+        <section id="alerts" class="pt-40 pb-24 relative bg-white border-b border-organic-tan/30 overflow-hidden hide-scrollbar">
+            <div class="absolute inset-0 bg-[#067302] blur-[150px] opacity-[0.03] rounded-full pointer-events-none"></div>
+
+            <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-[1fr_2fr] gap-12 lg:gap-16 items-start relative z-10 hide-scrollbar">
+                
+                <div class="relative z-10">
+                    <div class="inline-flex items-center gap-3 rounded-full border border-organic-green/30 bg-organic-green/5 px-5 py-2 mb-6">
+                        <div class="relative flex h-2 w-2">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-organic-green opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-organic-green"></span>
+                        </div>
+                        <span class="font-mono text-xs uppercase tracking-[0.15em] text-organic-dark font-semibold">Prévisions en temps réel</span>
+                    </div>
+
+                    <h2 class="font-calistoga text-4xl md:text-5xl leading-tight text-organic-darkest mb-6">
+                        Alerte<br />
+                        <span class="gradient-text">Arrivages</span>
+                    </h2>
+                    <p class="font-inter text-lg text-slate-500 mb-10 leading-relaxed max-w-sm">
+                        Nos alertes arrivages ne vous laissent plus aucun panier passer sous le nez. L'IA au service de la réduction du gaspillage alimentaire.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="group relative inline-flex items-center justify-center gap-2 rounded-xl bg-signature-gradient px-8 py-4 text-white font-medium transition-all duration-300 hover:-translate-y-1 hover:shadow-accent active:scale-95">
+                            Activer les alertes
+                            <i data-lucide="bell-ring" class="w-4 h-4 transition-transform duration-300 group-hover:scale-110"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="space-y-6 max-h-[70vh] overflow-y-auto pr-4 hide-scrollbar">
+                    
+                    <div class="group bg-white border border-slate-100 rounded-2xl p-6 transition-all duration-300 hover:border-organic-green/30 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)] relative overflow-hidden flex gap-5 items-center">
+                        <div class="absolute inset-0 bg-gradient-to-br from-organic-green/[0.02] to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                        
+                        <div class="w-14 h-14 flex-shrink-0 rounded-xl bg-organic-green/10 flex items-center justify-center text-organic-green p-3 shadow-sm group-hover:scale-110 transition-transform duration-300">
+                           <i data-lucide="shopping-basket"></i>
+                        </div>
+                        
+                        <div class="flex-grow">
+                             <div class="flex justify-between items-center mb-1">
+                                <span class="font-mono text-[10px] uppercase tracking-widest text-organic-dark font-bold">NOUVEL ARRIVAGE</span>
+                                <span class="font-inter text-xs text-slate-400">Il y a 12h</span>
+                            </div>
+                            <h4 class="font-inter font-semibold text-lg text-organic-darkest mb-1 tracking-tight">Julien Beaumont <span class="text-slate-400 font-normal ml-1">à Paris 5e</span></h4>
+                            <p class="font-inter text-sm text-organic-green/90 leading-relaxed">"200 kg de carottes arrivent demain chez ce producteur". Idéal pour nos carottes rôties au chimichurri.</p>
+                        </div>
+                        
+                        <i data-lucide="bell" class="w-5 h-5 text-slate-300 group-hover:text-organic-green ml-auto"></i>
+                    </div>
+
+                    <div class="group bg-white border border-slate-100 rounded-2xl p-6 transition-all duration-300 hover:border-organic-green/30 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)] relative overflow-hidden flex gap-5 items-center">
+                        <div class="absolute inset-0 bg-gradient-to-br from-organic-green/[0.02] to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                        
+                        <div class="w-14 h-14 flex-shrink-0 rounded-xl bg-organic-green/10 flex items-center justify-center text-organic-green p-3 shadow-sm group-hover:scale-110 transition-transform duration-300">
+                           <i data-lucide="map-pin"></i>
+                        </div>
+                        
+                        <div class="flex-grow">
+                             <div class="flex justify-between items-center mb-1">
+                                <span class="font-mono text-[10px] uppercase tracking-widest text-organic-dark font-bold">NOUVEL ARRIVAGE</span>
+                                <span class="font-inter text-xs text-slate-400">Il y a 1j</span>
+                            </div>
+                            <h4 class="font-inter font-semibold text-lg text-organic-darkest mb-1 tracking-tight">Ferme des Pommes Vertes <span class="text-slate-400 font-normal ml-1">à Paris 5e</span></h4>
+                            <p class="font-inter text-sm text-organic-green/90 leading-relaxed">À 1,2 km. Actuellement : Pommes, Chou kale.</p>
+                        </div>
+                        
+                        <i data-lucide="bell" class="w-5 h-5 text-slate-300 group-hover:text-organic-green ml-auto"></i>
+                    </div>
+
+                    <div class="group bg-white border border-slate-100 rounded-2xl p-6 transition-all duration-300 hover:border-organic-green/30 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)] relative overflow-hidden flex gap-5 items-centerOpacity">
+                        <div class="absolute inset-0 bg-gradient-to-br from-organic-green/[0.02] to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                        
+                        <div class="w-14 h-14 flex-shrink-0 rounded-xl bg-organic-green/10 flex items-center justify-center text-organic-green p-3 shadow-sm group-hover:scale-110 transition-transform duration-300">
+                           <i data-lucide="store"></i>
+                        </div>
+                        
+                        <div class="flex-grow">
+                             <div class="flex justify-between items-center mb-1">
+                                <span class="font-mono text-[10px] uppercase tracking-widest text-organic-dark font-bold">NOUVEL ARRIVAGE</span>
+                                <span class="font-inter text-xs text-slate-400">Il y a 2j</span>
+                            </div>
+                            <h4 class="font-inter font-semibold text-lg text-organic-darkest mb-1 tracking-tight">Léa Roussel <span class="text-slate-400 font-normal ml-1">à Paris 5e</span></h4>
+                            <p class="font-inter text-sm text-organic-green/90 leading-relaxed">Parfait pour notre poêlée de fanes de betteraves et tiges d'ail.</p>
+                        </div>
+                        
+                        <i data-lucide="bell" class="w-5 h-5 text-slate-300 group-hover:text-organic-green ml-auto"></i>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Challenges & Gamification Section -->
         <section id="challenges" class="py-32 relative bg-white border-t border-organic-tan/30 overflow-hidden">
             <!-- Background Radial Glow -->
             <div class="absolute top-0 right-0 -mt-32 -mr-32 w-[600px] h-[600px] bg-organic-green blur-[150px] opacity-[0.05] rounded-full pointer-events-none"></div>
 
             <div class="max-w-6xl mx-auto px-6">
-            <!-- Asymmetric Grid Layout (1.2fr : 0.8fr) -->
             <div class="grid lg:grid-cols-[1.2fr_0.8fr] gap-16 lg:gap-24 items-center relative z-10">
                 
                 <!-- Left Column: Context & Timeline Steps -->
@@ -453,28 +557,27 @@
                             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-organic-green opacity-75"></span>
                             <span class="relative inline-flex rounded-full h-2 w-2 bg-organic-green"></span>
                         </div>
-                        <span class="font-mono text-xs uppercase tracking-[0.15em] text-organic-dark font-semibold">Weekly Challenges</span>
+                        <span class="font-mono text-xs uppercase tracking-[0.15em] text-organic-dark font-semibold">Défis Hebdomadaires</span>
                     </div>
                     
                     <h2 class="font-calistoga text-4xl md:text-5xl leading-tight text-organic-darkest mb-6">
-                        Support local.<br />
-                        <span class="gradient-text">Earn your rewards.</span>
+                        Soutenez le local.<br />
+                        <span class="gradient-text">Gagnez des récompenses.</span>
                     </h2>
                     <p class="font-inter text-lg text-organic-dark/80 mb-12 max-w-lg">
-                        We turn sustainable living into a rewarding habit. Complete this week's ecological missions to unlock exclusive discounts at partner merchants.
+                        Nous faisons du mode de vie durable une habitude gratifiante. Accomplissez les missions écologiques de cette semaine pour débloquer des réductions exclusives chez nos partenaires.
                     </p>
-                    <!-- Arrow Connectors Timeline (From Design System) -->
+                    <!-- Arrow Connectors Timeline -->
                     <div class="relative pl-8 border-l-2 border-organic-tan/30 space-y-12">
                         
                         <!-- Step 1 -->
                         <div class="relative group">
-                            <!-- Accent Circular Badge -->
                             <div class="absolute -left-[43px] w-8 h-8 rounded-full bg-white border-2 border-organic-green flex items-center justify-center group-hover:bg-organic-green group-hover:text-white transition-colors duration-300 shadow-sm text-organic-green z-10">
                                 <i data-lucide="store" class="w-4 h-4"></i>
                             </div>
-                            <h4 class="font-inter font-bold text-xl text-organic-darkest mb-2 transition-colors">1. Shop Seasonal</h4>
+                            <h4 class="font-inter font-bold text-xl text-organic-darkest mb-2 transition-colors">1. Acheter de Saison</h4>
                             <p class="font-inter text-organic-dark/70 leading-relaxed">
-                                Use the interactive map to purchase fresh produce from any local farmer or organic grocery store.
+                                Utilisez la carte interactive pour acheter des produits frais chez un producteur ou une épicerie bio locale.
                             </p>
                         </div>
 
@@ -483,9 +586,9 @@
                             <div class="absolute -left-[43px] w-8 h-8 rounded-full bg-white border-2 border-organic-green flex items-center justify-center group-hover:bg-organic-green group-hover:text-white transition-colors duration-300 shadow-sm text-organic-green z-10">
                                 <i data-lucide="chef-hat" class="w-4 h-4"></i>
                             </div>
-                            <h4 class="font-inter font-bold text-xl text-organic-darkest mb-2 transition-colors">2. Zero-Waste Cooking</h4>
+                            <h4 class="font-inter font-bold text-xl text-organic-darkest mb-2 transition-colors">2. Cuisiner Zéro Déchet</h4>
                             <p class="font-inter text-organic-dark/70 leading-relaxed">
-                                Follow our chef-curated guides to utilize your ingredients completely—from root to stem.
+                                Suivez nos guides élaborés par des chefs pour utiliser vos ingrédients de la racine à la fane.
                             </p>
                         </div>
 
@@ -494,61 +597,52 @@
                             <div class="absolute -left-[43px] w-8 h-8 rounded-full bg-white border-2 border-organic-tan flex items-center justify-center text-organic-tan z-10">
                                 <i data-lucide="camera" class="w-4 h-4"></i>
                             </div>
-                            <h4 class="font-inter font-bold text-xl text-organic-dark/50 mb-2">3. Share with Community</h4>
+                            <h4 class="font-inter font-bold text-xl text-organic-dark/50 mb-2">3. Partager avec la Communauté</h4>
                             <p class="font-inter text-organic-dark/50 leading-relaxed">
-                                Post a photo of your zero-waste meal to inspire others and validate your challenge.
+                                Postez une photo de votre repas zéro déchet pour inspirer les autres et valider votre défi.
                             </p>
                         </div>
                     </div>
                 </div>
-                <!-- Right Column: The 10% Coupon (Featured Card & Gradient Border Effects) -->
+                <!-- Right Column: The 10% Coupon -->
                 <div class="relative w-full max-w-sm mx-auto lg:mx-0 mt-8 lg:mt-0">
-                <!-- Floating & Shadow Effects -->
-                <div class="animate-float shadow-2xl rounded-2xl relative">    
-                <!-- Gradient Border Effect (2px stroke via nested divs) -->
-                <div class="rounded-2xl bg-gradient-to-br from-organic-green via-organic-tan to-organic-dark p-[2px]">
-                <!-- Card Background -->
-                <div class="h-full w-full rounded-[calc(1rem-2px)] bg-organic-light p-8 relative overflow-hidden">
-                <!-- Coupon Visual Details -->
-                <div class="absolute top-0 right-0 w-24 h-24 bg-organic-green/10 rounded-bl-[100px] pointer-events-none"></div>
-                <div class="absolute -left-4 top-1/2 -translate-y-1/2 w-8 h-8 bg-white rounded-full border-r border-organic-tan/30"></div>
-                <div class="absolute -right-4 top-1/2 -translate-y-1/2 w-8 h-8 bg-white rounded-full border-l border-organic-tan/30"></div>
+                    <div class="animate-float shadow-2xl rounded-2xl relative">    
+                        <div class="rounded-2xl bg-gradient-to-br from-organic-green via-organic-tan to-organic-dark p-[2px]">
+                            <div class="h-full w-full rounded-[calc(1rem-2px)] bg-organic-light p-8 relative overflow-hidden">
+                                <div class="absolute top-0 right-0 w-24 h-24 bg-organic-green/10 rounded-bl-[100px] pointer-events-none"></div>
+                                <div class="absolute -left-4 top-1/2 -translate-y-1/2 w-8 h-8 bg-white rounded-full border-r border-organic-tan/30"></div>
+                                <div class="absolute -right-4 top-1/2 -translate-y-1/2 w-8 h-8 bg-white rounded-full border-l border-organic-tan/30"></div>
 
-                <!-- Content -->
-                <div class="text-center relative z-10">
-                    <div class="w-16 h-16 mx-auto bg-signature-gradient rounded-full flex items-center justify-center mb-6 text-white shadow-accent">
-                        <i data-lucide="ticket-percent" class="w-8 h-8"></i>
+                                <div class="text-center relative z-10">
+                                    <div class="w-16 h-16 mx-auto bg-signature-gradient rounded-full flex items-center justify-center mb-6 text-white shadow-accent">
+                                        <i data-lucide="ticket-percent" class="w-8 h-8"></i>
+                                    </div>
+                                    
+                                    <span class="font-mono text-xs uppercase tracking-widest text-organic-dark font-bold mb-2 block">Récompense bloquée</span>
+                                    
+                                    <div class="font-calistoga text-6xl text-organic-darkest mb-2 flex justify-center items-baseline gap-1">
+                                        -10%
+                                    </div>
+                                    
+                                    <div class="w-full border-t-2 border-dashed border-organic-tan/50 my-6"></div>
+                                    
+                                    <h4 class="font-inter font-bold text-organic-darkest mb-2">Coupon Héros Local</h4>
+                                    <p class="font-inter text-organic-dark/70 text-sm mb-8 px-2">
+                                        Valable chez tous les partenaires Communis pour l'achat de produits frais et de saison.
+                                    </p>
+                                                  
+                                    <button class="w-full py-4 rounded-xl bg-organic-dark/5 text-organic-dark/50 font-medium flex items-center justify-center gap-2 cursor-not-allowed">
+                                        <i data-lucide="lock" class="w-4 h-4"></i> Terminer les défis
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    
-                    <span class="font-mono text-xs uppercase tracking-widest text-organic-dark font-bold mb-2 block">Reward Locked</span>
-                    
-                    <div class="font-calistoga text-6xl text-organic-darkest mb-2 flex justify-center items-baseline gap-1">
-                        10% <span class="text-3xl font-inter font-bold">OFF</span>
-                    </div>
-                    
-                    <div class="w-full border-t-2 border-dashed border-organic-tan/50 my-6"></div>
-                    
-                    <h4 class="font-inter font-bold text-organic-darkest mb-2">Local Hero Coupon</h4>
-                    <p class="font-inter text-organic-dark/70 text-sm mb-8 px-2">
-                        Valid at all Communis partner markets for fresh, seasonal produce.
-                    </p>
-                                  
-                    <!-- Ghost Button State -->
-                    <button class="w-full py-4 rounded-xl bg-organic-dark/5 text-organic-dark/50 font-medium flex items-center justify-center gap-2 cursor-not-allowed">
-                        <i data-lucide="lock" class="w-4 h-4"></i> Complete challenges
-                    </button>
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-                        
-                    <!-- Ambient Shadow below the floating card -->
                     <div class="absolute -bottom-8 left-1/2 -translate-x-1/2 w-[80%] h-4 bg-organic-darkest/10 blur-xl rounded-full"></div>
-                    </div>
-                
-                  </div>
-      </div>
-    </section>
+                </div>
+              </div>
+            </div>
+        </section>
 
         <!-- Recipes -->
         <section id="recipes" class="py-32 bg-white border-t border-organic-tan/30">
@@ -560,25 +654,26 @@
                                 <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-organic-green opacity-75"></span>
                                 <span class="relative inline-flex rounded-full h-2 w-2 bg-organic-green"></span>
                             </div>
-                            <span class="font-mono text-xs uppercase tracking-[0.15em] text-organic-dark font-semibold">Culinary Inspiration</span>
+                            <span class="font-mono text-xs uppercase tracking-[0.15em] text-organic-dark font-semibold">Inspiration Culinaire</span>
                         </div>
                         <h2 class="font-calistoga text-4xl md:text-5xl leading-tight text-organic-darkest">
-                            Zero-Waste Joy.
+                            Le plaisir du Zéro Déchet.
                         </h2>
                     </div>
                     <button class="text-organic-green font-medium flex items-center gap-2 hover:gap-3 transition-all">
-                        View all recipes <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        Voir toutes les recettes <i data-lucide="arrow-right" class="w-4 h-4"></i>
                     </button>
                 </div>
 
                 <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     <!-- Recipe 1 -->
                     <div class="group cursor-pointer">
-                      <div class="w-full aspect-[4/5] rounded-2xl mb-6 flex items-center justify-center transition-all duration-500 group-hover:shadow-lg relative overflow-hidden">
+                      <div class="w-full aspect-[4/5] rounded-2xl mb-6 flex items-center justify-center transition-all duration-500 group-hover:shadow-lg relative overflow-hidden bg-organic-tan/30">
                           <img 
                               src="images/carrot-roast.jpg" 
-                              alt="Carrot Roast" 
-                              class="absolute inset-0 w-full h-h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                              alt="Carottes rôties" 
+                              class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                              onerror="this.src='https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?q=80&w=800&auto=format&fit=crop'">
                       <div class="absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity bg-organic-darkest"></div>
                           <i data-lucide="chef-hat" class="relative z-10 w-10 h-10 text-white/50 opacity-0 group-hover:opacity-100 transition-all duration-500"></i>
                           <div class="absolute bottom-4 left-4 w-10 h-10 rounded-full bg-white/90 backdrop-blur flex items-center justify-center text-organic-darkest shadow-sm translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 z-20">
@@ -586,20 +681,21 @@
                           </div>
                       </div>
                       <div class="px-2">
-                        <span class="font-mono text-[10px] uppercase tracking-widest text-organic-tan font-bold mb-3 block">By Julien Beaumont</span>
+                        <span class="font-mono text-[10px] uppercase tracking-widest text-organic-tan font-bold mb-3 block">Par Julien Beaumont</span>
                         <h3 class="font-inter font-semibold text-lg text-organic-darkest leading-snug group-hover:text-organic-green transition-colors">
-                            Carrot Roast with Herb-Top Chimichurri
+                            Carottes rôties et chimichurri de fanes
                         </h3>
                       </div>
-                      </div>
+                    </div>
 
                     <!-- Recipe 2 -->
                     <div class="group cursor-pointer">
-                      <div class="w-full aspect-[4/5] rounded-2xl mb-6 flex items-center justify-center transition-all duration-500 group-hover:shadow-lg relative overflow-hidden">
+                      <div class="w-full aspect-[4/5] rounded-2xl mb-6 flex items-center justify-center transition-all duration-500 group-hover:shadow-lg relative overflow-hidden bg-organic-green/10">
                           <img 
-                              src="images/Sautéed Beet Greens & Golden Garlic Stems.jpg" 
-                              alt="Carrot Roast" 
-                              class="absolute inset-0 w-full h-h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                              src="images/aubergine.jpeg" 
+                              alt="Ratatouille" 
+                              class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                              onerror="this.src='https://images.unsplash.com/photo-1628190983944-783321305417?q=80&w=800&auto=format&fit=crop'">
                       <div class="absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity bg-organic-darkest"></div>
                           <i data-lucide="chef-hat" class="relative z-10 w-10 h-10 text-white/50 opacity-0 group-hover:opacity-100 transition-all duration-500"></i>
                           <div class="absolute bottom-4 left-4 w-10 h-10 rounded-full bg-white/90 backdrop-blur flex items-center justify-center text-organic-darkest shadow-sm translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 z-20">
@@ -607,20 +703,21 @@
                           </div>
                       </div>
                       <div class="px-2">
-                        <span class="font-mono text-[10px] uppercase tracking-widest text-organic-tan font-bold mb-3 block">By Léa Roussel</span>
+                        <span class="font-mono text-[10px] uppercase tracking-widest text-organic-tan font-bold mb-3 block">Par Léa Roussel</span>
                         <h3 class="font-inter font-semibold text-lg text-organic-darkest leading-snug group-hover:text-organic-green transition-colors">
-                            Sautéed Beet Greens & Golden Garlic Stems
+                            Le Bol Provençal : Ratatouille de Saison
                         </h3>
                       </div>
-                      </div>
+                    </div>
 
                     <!-- Recipe 3 -->
                     <div class="group cursor-pointer">
-                      <div class="w-full aspect-[4/5] rounded-2xl mb-6 flex items-center justify-center transition-all duration-500 group-hover:shadow-lg relative overflow-hidden">
+                      <div class="w-full aspect-[4/5] rounded-2xl mb-6 flex items-center justify-center transition-all duration-500 group-hover:shadow-lg relative overflow-hidden bg-organic-dark/10">
                           <img 
-                              src="images/Leek Skin Cream Soup.jpg" 
-                              alt="Carrot Roast" 
-                              class="absolute inset-0 w-full h-h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                              src="images/Leek_Skin_Cream_Soup.jpg" 
+                              alt="Velouté" 
+                              class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                              onerror="this.src='https://images.unsplash.com/photo-1547592180-85f173990554?q=80&w=800&auto=format&fit=crop'">
                       <div class="absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity bg-organic-darkest"></div>
                           <i data-lucide="chef-hat" class="relative z-10 w-10 h-10 text-white/50 opacity-0 group-hover:opacity-100 transition-all duration-500"></i>
                           <div class="absolute bottom-4 left-4 w-10 h-10 rounded-full bg-white/90 backdrop-blur flex items-center justify-center text-organic-darkest shadow-sm translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 z-20">
@@ -628,20 +725,21 @@
                           </div>
                       </div>
                       <div class="px-2">
-                        <span class="font-mono text-[10px] uppercase tracking-widest text-organic-tan font-bold mb-3 block">By Mathieu Lefebvre</span>
+                        <span class="font-mono text-[10px] uppercase tracking-widest text-organic-tan font-bold mb-3 block">Par Mathieu Lefebvre</span>
                         <h3 class="font-inter font-semibold text-lg text-organic-darkest leading-snug group-hover:text-organic-green transition-colors">
-                            Velvety Broccoli Stalk & Leek Skin Cream Soup
+                            Velouté de tiges de brocolis & peaux de poireaux
                         </h3>
                       </div>
-                      </div>
+                    </div>
 
                     <!-- Recipe 4 -->
                     <div class="group cursor-pointer">
-                      <div class="w-full aspect-[4/5] rounded-2xl mb-6 flex items-center justify-center transition-all duration-500 group-hover:shadow-lg relative overflow-hidden">
+                      <div class="w-full aspect-[4/5] rounded-2xl mb-6 flex items-center justify-center transition-all duration-500 group-hover:shadow-lg relative overflow-hidden bg-organic-tan/20">
                           <img 
-                              src="images/Zucchini Peel Crisps.jpg" 
-                              alt="Carrot Roast" 
-                              class="absolute inset-0 w-full h-h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                              src="images/Zucchini_Peel_Crisps.jpg" 
+                              alt="Chips de légumes" 
+                              class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                              onerror="this.src='https://images.unsplash.com/photo-1625937286074-9ca519d5d9df?q=80&w=800&auto=format&fit=crop'">
                       <div class="absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity bg-organic-darkest"></div>
                           <i data-lucide="chef-hat" class="relative z-10 w-10 h-10 text-white/50 opacity-0 group-hover:opacity-100 transition-all duration-500"></i>
                           <div class="absolute bottom-4 left-4 w-10 h-10 rounded-full bg-white/90 backdrop-blur flex items-center justify-center text-organic-darkest shadow-sm translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 z-20">
@@ -649,31 +747,60 @@
                           </div>
                       </div>
                       <div class="px-2">
-                        <span class="font-mono text-[10px] uppercase tracking-widest text-organic-tan font-bold mb-3 block">By Chloé Girard</span>
+                        <span class="font-mono text-[10px] uppercase tracking-widest text-organic-tan font-bold mb-3 block">Par Chloé Girard</span>
                         <h3 class="font-inter font-semibold text-lg text-organic-darkest leading-snug group-hover:text-organic-green transition-colors">
-                            Seasoned Potato Skin & Zucchini Peel Crisps
+                            Chips de peaux de pommes de terre & courgettes
                         </h3>
                       </div>
-                      </div>
+                    </div>
                 </div>
             </div>
         </section>
-
-        <!-- CTA -->
+        
+        <!-- CTA (Newsletter Subscription) -->
         <section class="py-32 relative overflow-hidden bg-organic-light">
+            <!-- Background Radial Glow -->
             <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-organic-green blur-[150px] opacity-[0.08] rounded-full pointer-events-none"></div>
             
             <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
-                <h2 class="font-calistoga text-5xl md:text-6xl text-organic-darkest mb-8">
-                    Ready to boost local commerce?
+                <!-- Section Label -->
+                <div class="inline-flex items-center gap-3 rounded-full border border-organic-green/30 bg-organic-green/5 px-5 py-2 mb-8">
+                    <i data-lucide="mail" class="w-4 h-4 text-organic-green"></i>
+                    <span class="font-mono text-xs uppercase tracking-[0.15em] text-organic-dark font-semibold">Rejoignez la communauté</span>
+                </div>
+
+                <h2 class="font-calistoga text-4xl md:text-5xl lg:text-6xl text-organic-darkest mb-6">
+                    Actualités fraîches,<br />livrées chaque semaine.
                 </h2>
-                <p class="font-inter text-xl text-organic-dark/80 mb-12 max-w-2xl mx-auto">
-                    Join the post-crisis movement. Turn your daily meals into an engine for community resilience and environmental sustainability.
+                <p class="font-inter text-xl text-organic-dark/80 mb-12 max-w-2xl mx-auto leading-relaxed">
+                    Laissez votre email pour recevoir nos dernières <strong>recettes zéro déchet</strong>, <strong>nouvelles fonctionnalités</strong>, et des <strong>coupons de réduction exclusifs</strong> de nos partenaires locaux.
                 </p>
-                <button class="group relative inline-flex items-center justify-center gap-2 rounded-xl bg-signature-gradient px-12 py-5 text-lg text-organic-light font-medium transition-all duration-300 hover:-translate-y-1 hover:shadow-accent active:scale-95">
-                    Get Started Today
-                    <i data-lucide="arrow-right" class="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1"></i>
-                </button>
+
+                <!-- Modern SaaS Input Form -->
+                <form class="mx-auto max-w-lg flex items-center p-1.5 bg-white border border-organic-tan/40 rounded-2xl shadow-lg focus-within:ring-2 focus-within:ring-organic-green/50 focus-within:border-organic-green transition-all duration-300 relative z-20">
+                    <div class="pl-4 pr-2 flex items-center justify-center text-organic-tan">
+                        <i data-lucide="mail" class="w-5 h-5"></i>
+                    </div>
+                    <!-- Email Input -->
+                    <input 
+                        type="email" 
+                        placeholder="Entrez votre adresse email" 
+                        class="flex-1 bg-transparent border-none outline-none text-organic-darkest placeholder:text-organic-dark/40 py-3 font-inter w-full min-w-0"
+                        required
+                    >
+                    <!-- Submit Button -->
+                    <button 
+                        type="submit" 
+                        class="group relative inline-flex items-center justify-center gap-2 rounded-xl bg-signature-gradient px-6 md:px-8 py-3.5 text-organic-light font-medium transition-all duration-300 hover:shadow-accent active:scale-95 flex-shrink-0"
+                    >
+                        S'abonner
+                        <i data-lucide="send" class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1"></i>
+                    </button>
+                </form>
+
+                <p class="font-inter text-sm text-organic-dark/50 mt-6">
+                    Nous respectons votre boîte mail. Pas de spam, que des actualités locales fraîches.
+                </p>
             </div>
         </section>
     </main>
@@ -691,25 +818,25 @@
                 
                 <div class="flex items-center gap-8">
                   <a href="#" class="w-6 h-6 opacity-60 hover:opacity-100 hover:-translate-y-1 transition-all">
-                      <img src="images/ins-logo.png" alt="Twitter" class="w-full h-full object-contain">
+                      <img src="images/ins-logo.png" alt="Twitter" class="w-full h-full object-contain" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><path d=\'M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z\'/></svg>'">
                   </a>
 
                   <a href="#" class="w-6 h-6 opacity-60 hover:opacity-100 hover:-translate-y-1 transition-all">
-                      <img src="images/Youtube_logo.png" alt="Instagram" class="w-full h-full object-contain">
+                      <img src="images/Youtube_logo.png" alt="Instagram" class="w-full h-full object-contain" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><rect x=\'2\' y=\'2\' width=\'20\' height=\'20\' rx=\'5\' ry=\'5\'/><path d=\'M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\'/><line x1=\'17.5\' y1=\'6.5\' x2=\'17.51\' y2=\'6.5\'/></svg>'">
                   </a>
 
                   <a href="#" class="w-6 h-6 opacity-60 hover:opacity-100 hover:-translate-y-1 transition-all">
-                      <img src="images/LinkedIn_icon.png" alt="LinkedIn" class="w-full h-full object-contain">
+                      <img src="images/LinkedIn_icon.png" alt="LinkedIn" class="w-full h-full object-contain" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><path d=\'M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\'/><rect x=\'2\' y=\'9\' width=\'4\' height=\'12\'/><circle cx=\'4\' cy=\'4\' r=\'2\'/></svg>'">
                   </a>
                 </div>
             </div>
             
             <div class="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-organic-light text-sm text-organic-dark/60 font-inter">
-                <p>© 2026 Communis. All rights reserved.</p>
+                <p>© 2026 Communis. Tous droits réservés.</p>
                 <div class="flex gap-6 mt-4 md:mt-0">
-                    <a href="#" class="hover:text-organic-green transition-colors">Privacy Policy</a>
-                    <a href="#" class="hover:text-organic-green transition-colors">Terms of Service</a>
-                    <a href="#" class="hover:text-organic-green transition-colors">Sitemap</a>
+                    <a href="#" class="hover:text-organic-green transition-colors">Politique de confidentialité</a>
+                    <a href="#" class="hover:text-organic-green transition-colors">Conditions d'utilisation</a>
+                    <a href="#" class="hover:text-organic-green transition-colors">Plan du site</a>
                 </div>
             </div>
         </div>
